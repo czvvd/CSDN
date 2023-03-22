@@ -16,7 +16,7 @@ We are motivated to imitate the physical repair procedure to address point cloud
 To this end, we propose a cross-modal shape-transfer dual-refinement network (termed CSDN), a coarse-to-fine paradigm with images of full-cycle participation,  for quality point cloud completion.
 CSDN mainly consists of "shape fusion" and "dual-refinement" modules to tackle the cross-modal challenge.
 The first module transfers the intrinsic shape characteristics from single images to guide the geometry generation of the missing regions of point clouds, in which we propose IPAdaIN to embed the global features of both the image and the partial point cloud into completion. The second module refines the coarse output by adjusting the positions of the generated points, where the local refinement unit exploits the geometric relation between the novel and the input points by graph convolution, and the global constraint unit utilizes the input image to fine-tune the generated offset.
-Different from most existing approaches, CSDN not only explores the complementary information from images but also effectively exploits cross-modal data in the \textit{whole} coarse-to-fine completion procedure.
+Different from most existing approaches, CSDN not only explores the complementary information from images but also effectively exploits cross-modal data in the whole coarse-to-fine completion procedure.
 Experimental results indicate that CSDN performs favorably against twelve competitors on the cross-modal benchmark.
 
 ## Get Started
