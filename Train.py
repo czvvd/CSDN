@@ -121,10 +121,6 @@ def train(epoch, model, g_optimizer, train_loader, board_writer):
         g_optimizer.zero_grad()
         gt_2048 = fps_subsample(pcs, 2048)
         coarse,pcg,fine = model(views,pc_parts)
-        # loss_total, losses, gts = get_loss_snow(pcds_pred,
-        #                                    pc_parts,
-        #                                    gt_2048,
-        #                                    sqrt=True)
         cd_fine = chamfer(fine, gt_2048)
         cd_coarse = chamfer(pcg,gt_2048)
         loss_total = alpha*cd_fine+cd_coarse
