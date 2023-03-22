@@ -25,9 +25,9 @@ for i, cat in enumerate(['all']):
                                    status='test', view_align=False, category=cat)
     test_loader = DataLoader(TEST_DATA,
                              batch_size=2,
-                             num_workers=4,
+                             num_workers=8,
                              shuffle=False,
-                             drop_last=True)
+                             drop_last=False)
     prefetcher = data_prefetcher(test_loader)
     views, pcs, pc_parts = prefetcher.next()
     iteration = 0

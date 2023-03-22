@@ -208,12 +208,12 @@ def main():
                               batch_size=BATCH_SIZE,
                               num_workers=NUM_WORKERS,
                               shuffle=True,
-                              drop_last=True)
+                              drop_last=False)
     test_loader = DataLoader(TEST_DATA,
                              batch_size=BATCH_SIZE,
                              num_workers=NUM_WORKERS,
-                             shuffle=True,
-                             drop_last=True)
+                             shuffle=False,
+                             drop_last=False)
 
     resume_epoch = 0
     board_writer = SummaryWriter(comment=f'{MODEL}_{VERSION}_{BATCH_SIZE}_{LR}_{FLAG}_{CLASS}_{TIME_FLAG}')
