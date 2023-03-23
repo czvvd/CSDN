@@ -43,7 +43,7 @@ python Train.py
 ```
 
 ## Citation
-If you use CSDN in your research or wish to refer to the results published in the paper, please consider citing our paper:
+If you use CSDN in your research, please consider citing our paper:
 ```bibtex
 @article{zhu2023csdn,
   title={CSDN: Cross-modal Shape-transfer Dual-refinement Network for Point Cloud Completion},
