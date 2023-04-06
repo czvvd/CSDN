@@ -62,6 +62,8 @@ The code is based on [ViPC](https://github.com/Hydrogenion/ViPC). Some of the co
 - [PytorchPointNet++](https://github.com/erikwijmans/Pointnet2_PyTorch)
 - [ChamferDistancePytorch](https://github.com/ThibaultGROUEIX/ChamferDistancePytorch)
 
+We use [Easy3D](https://github.com/LiangliangNan/Easy3D) to visualize point clouds.
+
 We thanks the authors for their great work.
 
 ## License
