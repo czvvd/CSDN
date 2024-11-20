@@ -2,7 +2,7 @@
 
 This repository contains the PyTorch implementation of the paper:
 
-**[CSDN: Cross-modal Shape-transfer Dual-refinement Network for Point Cloud Completion](https://ieeexplore.ieee.org/abstract/document/10015045), TVCG 2023**
+**[CSDN: Cross-modal Shape-transfer Dual-refinement Network for Point Cloud Completion](https://ieeexplore.ieee.org/abstract/document/10015045), TVCG 2024**
 
 <!-- <br> -->
 [Zhe Zhu](https://scholar.google.com/citations?user=pM4ebg0AAAAJ),  [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/index.html), [Haoran Xie](https://scholar.google.com/citations?user=O4lGUj8AAAAJ), [Honghua Chen](https://scholar.google.com/citations?user=S7yyHpAAAAAJ), [Jun Wang](https://scholar.google.com/citations?user=vFYyThwAAAAJ), [Mingqiang Wei](https://scholar.google.com/citations?user=TdrJj8MAAAAJ), [Jing Qin](https://harry-qinjing.github.io/).
